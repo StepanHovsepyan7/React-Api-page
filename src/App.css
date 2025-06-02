@@ -1,37 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
-body{
+body {
   background-color: black;
   color: white;
 }
-.card{
+
+.card {
   border: 1px solid white;
   border-radius: 10px;
   padding: 10px;
   cursor: pointer;
   font-weight: bold;
 }
-.inp{
+
+.inp {
   border: none;
   border-bottom: 1px solid black;
   padding-left: 10px;
   outline: none;
 }
-.title{
-    font-family: "Lobster", sans-serif;
+
+.title {
+  font-family: "Lobster", sans-serif;
 }
-.singleImg{
+
+.singleImg {
   height: 800px;
   width: 700px;
   object-fit: contain;
 }
-.smallImages{
+
+.smallImages {
   cursor: pointer;
   height: 100px;
   width: 100px;
   border: 3px solid white;
   border-radius: 10px;
 }
-.header{
+
+.header {
   z-index: 999;
+}
+
+.categoriesBtn {
+  cursor: pointer;
+  width: 130px;
+  height: 40px;
+  font-family: "Lobster", sans-serif;
+  border-radius: 20px;
+  border: 1px solid rgb(255, 255, 255);
 }
