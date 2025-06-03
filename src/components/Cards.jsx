@@ -11,7 +11,7 @@ function Cards({imageUrl,title}) {
     });
   }, []);
   return (
-    <div className='card' >
+    <div className='card'data-aos='fade-up' >
         <img className='object-contain h-[300px]' src={imageUrl} alt="" />
         <h3>{title}</h3>
     </div>
