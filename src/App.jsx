@@ -42,11 +42,9 @@ function App({ inpValue }) {
       <div className='max-w-[1440px] m-auto p-3'>
         <div className='flex justify-center flex-wrap items-center gap-[20px] text-center mt-5'>
           {data.map((e) => (
-
             <Link to={`/products/${e.id}`} key={e.id} >
               <Cards title={e.title} imageUrl={e.images[0]} />
             </Link>
-
           ))}
         </div>
       </div>

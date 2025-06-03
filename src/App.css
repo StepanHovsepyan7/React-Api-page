@@ -50,3 +50,8 @@ body {
   border-radius: 20px;
   border: 1px solid rgb(255, 255, 255);
 }
+.activeBtn {
+  background-color: white;
+  color: black;
+  transition: all 0.3s ease;
+}
