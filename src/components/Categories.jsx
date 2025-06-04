@@ -25,6 +25,7 @@ function Categories() {
     }, [click])
 
 
+    
 
 
     return (
@@ -37,7 +38,7 @@ function Categories() {
                                 onClick={() => {
                                     setClick(category)
                                 }}
-                                className={`categoriesBtn`}>{category}</button>
+                                className={`categoriesBtn ${click === category ? `activeBtn` : ''}`}>{category}</button>
                         </div>
                     )
                 })}
